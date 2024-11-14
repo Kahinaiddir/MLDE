@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SirWaqas/mlruns/0/4ca6f65bb00a4d209c421f17c264a536/artifacts
+end_time: 1702930826824
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ca6f65bb00a4d209c421f17c264a536
+run_name: welcoming-bass-738
+run_uuid: 4ca6f65bb00a4d209c421f17c264a536
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702930813979
+status: 3
+tags: []
+user_id: qbada

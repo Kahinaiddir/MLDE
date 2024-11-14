@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SirWaqas/mlruns/0/a74eb3a07cb24ec2bab77fc7fe8628e4/artifacts
+end_time: 1702932058582
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a74eb3a07cb24ec2bab77fc7fe8628e4
+run_name: judicious-squid-382
+run_uuid: a74eb3a07cb24ec2bab77fc7fe8628e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702932058544
+status: 4
+tags: []
+user_id: qbada

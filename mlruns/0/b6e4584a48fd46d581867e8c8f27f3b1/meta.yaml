@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SirWaqas/mlruns/0/b6e4584a48fd46d581867e8c8f27f3b1/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b6e4584a48fd46d581867e8c8f27f3b1
+run_name: funny-doe-991
+run_uuid: b6e4584a48fd46d581867e8c8f27f3b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702930826870
+status: 1
+tags: []
+user_id: qbada
