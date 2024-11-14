@@ -71,9 +71,6 @@ vent
 pluie
 ```
 ```
-Abonnez-vous à DeepL Pro pour traduire des fichiers plus volumineux.
-Visitez http://www.DeepL.com/pro pour en savoir plus.
-```
 
 ```
 import mlflow import
