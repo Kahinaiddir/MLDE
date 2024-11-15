@@ -96,15 +96,11 @@ Une fois formé et enregistré, le modèle est sauvegardé en tant qu'artefact M
 MLflow est une plateforme open-source qui aide à gérer le cycle de vie de l'apprentissage
 automatique. Elle fournit des outils pour le suivi des expériences, montre comment enregistrer les expériences, les paramètres et les métriques, pendant le développement du modèle, l'emballage des modèles et leur déploiement en production.
 ```
-
-```
 Voici un lien vers la documentation MLflow : https://mlflow.org/docs/latest/index.html
 ```
 # Suivi des expériences :
-
-```
 MLflow enregistre les données utilisées, le code exécuté et les performances de chaque tentative (modèle). Il est ainsi facile de suivre les progrès réalisés, de comparer différents modèles et d'apprendre de nos erreurs.
-```
+
 Paramètres de journalisation et mesures :
 
 MLflow nous permet d'enregistrer à la fois les paramètres et les métriques afin que nous puissions voir comment la modification des paramètres affecte les résultats finaux. Cela nous permet d'affiner notre modèle et de le rendre encore meilleur.
@@ -193,6 +189,7 @@ http://localhost:8000/predict
 ### Étape 1 : Faire une demande de prédiction
 
 Envoyez une requête POST avec des données JSON comme suit :
+```
 {
 "X" : - 0. 5 ,
 "Y" : - 0. 2 ,
@@ -219,8 +216,6 @@ La réponse sera au format JSON avec la valeur prédite, par exemple :
 ```
 
 ### Notes clés
-
-```
 1.Versionnement du modèle : En utilisant MLflow, nous pouvons récupérer la dernière version du modèle automatiquement avec
 ```
 MODEL_URI = "models:/tracking_forest_fire_prediction_model/latest".
@@ -233,9 +228,8 @@ HTTPException.
 
 ### Informations complémentaires
 
-```
 Intégration de MLflow : MLflow permet de suivre les métriques et les paramètres du modèle, ce qui est particulièrement utile pour l'amélioration continue du modèle.
 Registre des modèles : Le registre de modèles de MLflow permet de garder une trace des différentes versions du modèle, ce qui est utile en production lorsque le dernier modèle doit être déployé fréquemment.
 Documentation API : FastAPI génère automatiquement une documentation interactive sur l'API, disponible à l'adresse http://localhost:8000/docs.
-```
+
 
