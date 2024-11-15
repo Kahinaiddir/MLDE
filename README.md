@@ -176,7 +176,7 @@ Exécuter l'API à l'aide d'Uvicorn :
 uvicorn main:app --host 0 .0.0.0 --port 8000 - -reload
 ```
 
-L'API sera désormais disponible à l'adresse [http://localhost:](http://localhost:).
+L'API sera désormais disponible à l'adresse 
 ```
 http://localhost:8000/predict
 ```
